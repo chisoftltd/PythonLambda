@@ -8,10 +8,10 @@ print(x(2, 4))
 
 # Why Use Lambda Functions?
 # anonymous function
-def myfunc(n):
+def myfunc1(n):
     return lambda a : a / n
 
-mydivider = myfunc(1.2)
+mydivider = myfunc1(1.2)
 print(mydivider(3))
 print()
 
